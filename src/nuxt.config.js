@@ -28,6 +28,11 @@ export default {
         component: resolve(__dirname, 'pages/works/index.vue'),
         name: '',
       })
+      routes.push({
+        path: '/members/:p',
+        component: resolve(__dirname, 'pages/members/index.vue'),
+        name: '',
+      })
     },
   },
 

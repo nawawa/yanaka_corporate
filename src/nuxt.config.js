@@ -23,6 +23,11 @@ export default {
         component: resolve(__dirname, 'pages/blogs/index.vue'),
         name: 'page',
       })
+      routes.push({
+        path: '/works/:p',
+        component: resolve(__dirname, 'pages/works/index.vue'),
+        name: '',
+      })
     },
   },
 
